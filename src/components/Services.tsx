@@ -48,7 +48,8 @@ const Services: React.FC = () => {
       aria-labelledby="services-heading"
     >
       <div className="max-w-[1440px] mx-auto px-16 pt-16 pb-20 max-md:px-5">
-        <h2
+        <h2 
+        style={{ fontVariationSettings: '"wdth" 75' }}
           id="services-heading"
           className="text-5xl font-bold leading-tight text-center text-primary max-md:text-4xl"
         >

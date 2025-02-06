@@ -12,6 +12,8 @@ const services: ServiceData[] = [
     title: "Thorough Assessment",
     description:
       "Our inspection services involve a detailed assessment of the property to identify any existing pest problems and potential risks. We develop customized treatment plans to address the specific needs of each client.",
+    imageSrc:
+      "./icon-house.svg",
   },
   {
     title: "Effective Pest Control",

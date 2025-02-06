@@ -15,7 +15,7 @@ const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
   };
 
   return (
-    <div className="mt-4 max-w-full bg-secondary border border-primary w-[910px]">
+    <div className="mt-4 max-w-full bg-white text-black border border-primary w-[910px]">
       <button
         className="flex items-center justify-between w-full px-6 py-5 text-left focus:outline-none focus:ring-2 focus:ring-primary"
         onClick={handleToggle}
@@ -97,7 +97,7 @@ const FAQSection: React.FC = () => {
       <div className="max-w-[1440px] mx-auto px-16 pt-16 pb-20 max-md:px-5">
         <h2
           id="faq-heading"
-          className="text-5xl font-bold leading-tight text-center text-secondary max-md:text-4xl"
+          className="text-5xl font-bold leading-tight text-center text-secondary max-md:text-4xl text-left"
         >
           FAQs
         </h2>
