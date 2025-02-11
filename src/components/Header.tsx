@@ -2,7 +2,7 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full bg-primary" role="banner">
+    <header className="w-full bg-black bg-primary" role="banner">
       <div className="max-w-[1440px] mx-auto flex flex-wrap justify-between items-center px-16 py-4 max-md:px-5">
         <div className="flex justify-center items-center w-[175px]">
           <img
@@ -13,10 +13,10 @@ const Header: React.FC = () => {
           />
         </div>
         <nav
-          className="flex gap-8 justify-center items-center text-base"
+          className="flex items-center justify-center gap-8 text-base"
           role="navigation"
         >
-          <ul className="flex gap-8 items-center text-secondary whitespace-nowrap list-none">
+          <ul className="flex items-center gap-8 list-none text-secondary whitespace-nowrap">
             <li>
               <a
                 href="#about"
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           </ul>
           <a
             href="#contact"
-            className="px-6 py-3 text-primary bg-secondary border border-secondary focus:outline-none focus:ring-2 focus:ring-secondary"
+            className="px-6 py-3 border text-primary bg-secondary border-secondary focus:outline-none focus:ring-2 focus:ring-secondary"
           >
             Contact Us
           </a>
