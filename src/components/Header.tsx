@@ -2,7 +2,7 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full bg-black bg-primary" role="banner">
+    <header className="w-full text-white bg-black bg-primary" role="banner">
       <div className="max-w-[1440px] mx-auto flex flex-wrap justify-between items-center px-16 py-4 max-md:px-5">
         <div className="flex justify-center items-center w-[175px]">
           <img
