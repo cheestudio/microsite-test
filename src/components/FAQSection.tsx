@@ -90,14 +90,14 @@ const FAQSection: React.FC = () => {
   return (
     <section
     id="faqs"
-      className="w-full bg-black text-white"
+      className="w-full text-white bg-black"
       role="region"
       aria-labelledby="faq-heading"
     >
       <div className="max-w-[1440px] mx-auto px-16 pt-16 pb-20 max-md:px-5">
         <h2
           id="faq-heading"
-          className="text-5xl font-bold leading-tight text-center text-secondary max-md:text-4xl text-left"
+          className="text-5xl font-bold leading-tight text-center text-secondary max-md:text-4xl"
         >
           FAQs
         </h2>
